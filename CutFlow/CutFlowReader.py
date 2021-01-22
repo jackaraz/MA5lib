@@ -8,8 +8,10 @@ Created on Fri Jan 31 10:37:07 2020
 """
 
 import os
-from SafReader import SAF
+#from ... import SafReader
+from ma5_expert.SafReader import SAF
 from CutFlowObjects import Cut, SignalRegion
+
 
 
 class Collection(object):
